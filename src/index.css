@@ -8,3 +8,9 @@ body{
     background-color: #000000;
     font-family: 'Lato', sans-serif;
 }
+
+@layer components{
+    .input{
+        @apply text-white w-full placeholder:text-base  p-2 rounded-md bg-zinc-800 box-border my-2 outline-none text-lg border-none;
+    }
+}
