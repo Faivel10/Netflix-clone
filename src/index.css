@@ -11,6 +11,6 @@ body{
 
 @layer components{
     .input{
-        @apply text-white w-full placeholder:text-base  p-2 rounded-md bg-zinc-800 box-border my-2 outline-none text-lg border-none;
+        @apply  w-full placeholder:text-base  p-3 rounded bg-zinc-800 box-border my-2;
     }
 }

@@ -7,7 +7,7 @@ const Main = () => {
 
   //pick a random movie for the hero section
   const movie = movies[Math.floor(Math.random() * movies.length)];
-
+  
   console.log(movie);
   useEffect(() => {
     axios.get(requests.requestPopular).then((res) => {
@@ -24,7 +24,7 @@ const Main = () => {
   };
 
   return (
-    <div className="w-full h-[30rem] text-white">
+    <div className="w-full relative h-[30rem] text-white">
       <div className="w-full h-full">
         <div className="absolute w-full h-[30rem] bg-gradient-to-r from-black"></div>
         <img
