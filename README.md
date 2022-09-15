@@ -1,4 +1,4 @@
-Netflix Plus is a netflix clone but with more an some upgrade like comments, reviews and live chat.
+Netflix Plus is a netflix clone but with more upgrade like comments, reviews and live chat.
 
 
 ## Table of contents
@@ -40,7 +40,6 @@ Users should be able to:
 - Add movie\show card details on click.
 - Add the trailer of each movie\show to their card information.
 - Add the option to login and register new users (using Firebase to at first)
-- Add profile page for each user (using Firebase at first)
 - Add backend support using NodeJS with Express.
 - Upgrate the visual look of the website.
 - Add comments and reviews to each show\movie.
